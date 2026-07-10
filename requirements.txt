@@ -12,4 +12,3 @@ PyMuPDF
 python-docx
 pdfplumber
 wordcloud
-gensim
