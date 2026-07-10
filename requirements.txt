@@ -1,0 +1,15 @@
+streamlit
+numpy
+pandas
+scikit-learn
+scipy
+joblib
+gensim
+nltk
+matplotlib
+plotly
+PyMuPDF
+python-docx
+pdfplumber
+wordcloud
+gensim
