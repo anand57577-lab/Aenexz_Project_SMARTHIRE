@@ -100,7 +100,7 @@ Feature Extraction (TF-IDF)
 ## Clone Repository
 
 ```bash
-git clone https://github.com/<your-username>/SmartHire.git
+git clone https:https://github.com/anand57577-lab/Aenexz_Project_SMARTHIRE.git
 
 cd SmartHire
 ```
@@ -145,15 +145,15 @@ streamlit run app/streamlit_app.py
 
 # Model Performance
 
-| Model | Algorithm | Evaluation Metric | Performance |
-|--------|-----------|------------------|-------------|
-| Resume Category Classifier | Logistic Regression | Accuracy | XX.XX % |
-| Resume Category Classifier | Logistic Regression | Precision | XX.XX % |
-| Resume Category Classifier | Logistic Regression | Recall | XX.XX % |
-| Resume Category Classifier | Logistic Regression | F1-Score | XX.XX % |
-| Job Recommendation | TF-IDF + Cosine Similarity | Precision@10 | XX.XX |
-| Career Clustering | K-Means | Silhouette Score | XX.XX |
-| Skill Gap Analysis | Word2Vec | Skill Matching Accuracy | XX.XX % |
+## 📊 Resume Category Classifier Performance
+
+| Model | Algorithm | Evaluation Metric | Accuracy | ROC Curve |
+|--------|-----------|-------------------|------:|:---------:|
+| Resume Category Classifier | Logistic Regression | 0.68% | 0.95  |
+| Resume Category Classifier | Decision Tree Regression | 0.61% | 0.79  |
+| Resume Category Classifier | Random Forest Regression | 0.75% | 0.96  |
+| Resume Category Classifier | Linear SVC Regression | 0.74% | -  |
+| Resume Category Classifier | KNN | 0.54% | 0.85 |
 
 > Replace the values above with the final evaluation results obtained from your notebooks.
 
@@ -242,31 +242,24 @@ After uploading a resume, SmartHire generates:
 
 ---
 
-# Live Demo
-
-**Streamlit Application**
-
-https://your-streamlit-url.streamlit.app
-
----
 
 # Author
 
 **Anand S**
 
-B.Tech Student
+B.Tech CSE Student
 
 Artificial Intelligence & Machine Learning
 
-GitHub: https://github.com/<your-github>
+GitHub:https://github.com/anand57577-lab/
 
-LinkedIn: https://linkedin.com/in/<your-linkedin>
+LinkedIn: www.linkedin.com/in/anand57
 
 ---
 
 ## License
 
-This project is developed for educational and research purposes.
+This project is developed for educational and internship purposes.
 
 ---
 
